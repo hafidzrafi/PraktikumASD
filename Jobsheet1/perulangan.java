@@ -12,6 +12,7 @@ public class perulangan {
         long n = nim % 100;
         System.out.println("N: " + n);
         
+        if (n < 10) n += 10;
 
         for (int i = 1; i <= n; i++) {
             if (i == 10 || i == 15) {
