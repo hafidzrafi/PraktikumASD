@@ -2,6 +2,8 @@ package Jobsheet3.tugas.tugas_1;
 
 import java.util.Scanner;
 
+import Jobsheet3.tugas.tugas_2.DataDosen19;
+
 public class DosenDemo19 {
 
     public static void main(String[] args) {
@@ -31,15 +33,12 @@ public class DosenDemo19 {
             System.out.println("------------------------------------------");
         }
 
-        for (Dosen19 dosen19 : dosen) {
-            if (dosen19 != null) {
-                System.out.println("Kode          : " + dosen19.kode);
-                System.out.println("Nama          : " + dosen19.nama);
-                System.out.println("Jenis Kelamin : " + (dosen19.jenisKelamin ? "Pria" : "Wanita"));
-                System.out.println("Usia          : " + dosen19.usia);
-                System.out.println("------------------------------------------");
-            }
-        }
         input.close();
+
+        DataDosen19.dataSemuaDosen(dosen);
+        DataDosen19.jumlahDosenPerJenisKelamin(dosen);
+        DataDosen19.rerataUsiaDosenPerJenisKelamin(dosen);
+        DataDosen19.infoDosenPalingTua(dosen);
+        DataDosen19.infoDosenPalingMuda(dosen);
     }
 }
