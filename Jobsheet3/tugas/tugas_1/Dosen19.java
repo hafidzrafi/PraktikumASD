@@ -2,10 +2,10 @@ package Jobsheet3.tugas.tugas_1;
 
 public class Dosen19 {
 
-    String kode;
-    String nama;
-    Boolean jenisKelamin;
-    int usia;
+    public String kode;
+    public String nama;
+    public Boolean jenisKelamin;
+    public int usia;
 
     public Dosen19(String kode, String nama, Boolean jenisKelamin, int usia) {
         this.kode = kode;
