@@ -18,5 +18,6 @@ public class MahasiswaMain19 {
         mhs2.tampilkanInformasi();
 
         Mahasiswa19 mhsHafidz = new Mahasiswa19("Hafidz Rafi", "254107020084", 3.6, "TI - 1G");
+        mhsHafidz.tampilkanInformasi();
     }
 }
