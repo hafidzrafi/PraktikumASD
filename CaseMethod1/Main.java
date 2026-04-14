@@ -15,7 +15,7 @@ public class Main {
                 "\n1. Tampilkan Mahasiswa" +
                 "\n2. Tampilkan Buku" +
                 "\n3. Tampilkan Peminjaman" +
-                "\n4. Urutkan Berdasarkan Denda" +
+                "\n4. Urutkan Berdasarkan NIM (ASC)" +
                 "\n5. Cari Berdasarkan NIM" +
                 "\n0. Keluar" +
                 "\nPilih: "
@@ -37,8 +37,8 @@ public class Main {
                     data.tampilPeminjaman(data.listPeminjaman);
                     break;
                 case 4:
-                    System.out.println("\nSetelah diurutkan (Denda terbesar):");
-                    data.sortingDenda();
+                    System.out.println("\nSetelah diurutkan (NIM Ascending):");
+                    data.sortingNIM();
                     data.tampilPeminjaman(data.listPeminjaman);
                     break;
                 case 5:

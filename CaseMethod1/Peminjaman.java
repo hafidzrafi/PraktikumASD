@@ -24,6 +24,6 @@ public class Peminjaman {
     }
 
     public void tampilPeminjaman() {
-        System.out.printf("%s | %s | Lama: %s | Terlambat: %d | Denda: %d" , mhs.nama, buku.judul, lamaPinjam, terlambat, denda);
+        System.out.printf("%s | %s | %s | Lama: %s | Terlambat: %d | Denda: %d" , mhs.nim, mhs.nama, buku.judul, lamaPinjam, terlambat, denda);
     }
 }
